@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 
 public class PurchaseItem {
     private int id;
-    private int productId;
-    private String productName;
-    private int productPrice;
-    private int count;
+    private int filmId;
+    private String imageUrl;
+    private String name;
+    private String genre;
 }
