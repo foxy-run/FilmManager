@@ -6,7 +6,7 @@ import ru.netology.domain.PurchaseItem;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FilmManagerTest {   
+class FilmManagerTest {
     private ru.netology.manager.FilmManager filmManager = new ru.netology.manager.FilmManager();
     private PurchaseItem first = new PurchaseItem(1, 1, "url1", "name1", "genre1");
     private PurchaseItem second = new PurchaseItem(2, 2, "url2", "name2", "genre2");
